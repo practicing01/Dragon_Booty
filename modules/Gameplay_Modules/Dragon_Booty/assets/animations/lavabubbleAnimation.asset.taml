@@ -1,0 +1,7 @@
+<AnimationAsset
+	AssetName="lavabubbleAnimation"
+	Image="@asset=Module_Dragon_Booty:lavabubbleImageMap"
+	AnimationFrames="0 1 2 3"
+	AnimationCycle="1"
+	AnimationTime="4"
+/>

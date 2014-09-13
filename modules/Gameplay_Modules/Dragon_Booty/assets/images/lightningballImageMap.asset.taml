@@ -1,0 +1,8 @@
+<ImageAsset
+	AssetName="lightningballImageMap"
+	ImageFile="lightningball.png"
+	CellCountX="20"
+	CellCountY="1"
+	CellWidth="56"
+	CellHeight="64"
+/>

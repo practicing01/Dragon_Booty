@@ -1,0 +1,2988 @@
+<Scene>
+	<Sprite
+		Image="@asset=Module_Dragon_Booty:BackGroundImageMap"
+		frame="0"
+		BodyType="static"
+		class=""
+		Visible="1"
+		Lifetime="0"
+		Position="0.000 -0"
+		Size="100.000 75.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="29"
+		SceneGroup="0"
+		CollisionGroups="-1"
+		CollisionLayers="-1"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<Sprite.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-50 37.5</Point>
+				<Point>50 37.5</Point>
+				<Point>50 -37.5</Point>
+				<Point>-50 -37.5</Point>
+			</Polygon>
+		</Sprite.CollisionShapes>
+	</Sprite>
+	<CompositeSprite
+		BatchIsolated="1"
+		BatchSortMode="Z"
+		BodyType="static"
+		class=""
+		Visible="1"
+		Lifetime="0"
+		Position="0.000 25"
+		Size="100.000 24.000"
+		Angle="0"
+		FlipX="0"
+		FlipY="0"
+		SceneLayer="30"
+		SceneGroup="0"
+		CollisionGroups="-1"
+		CollisionLayers="-1"
+		CollisionCallback="0"
+		BlendColor="1 1 1 1"
+		LinearVelocity="0.000 0.000"
+		AngularVelocity="0" >
+		<CompositeSprite.CollisionShapes>
+			<Polygon
+				Sensor="1">
+				<Point>-50 12</Point>
+				<Point>50 12</Point>
+				<Point>50 -12</Point>
+				<Point>-50 -12</Point>
+			</Polygon>
+		</CompositeSprite.CollisionShapes>
+		<CompositeSprite.Sprites>
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-49 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-47 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-45 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-43 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-41 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-35 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-27 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-25 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-17 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-9 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-7 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-1 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="5 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="7 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="9 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="15 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="17 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="19 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="23 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="25 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="27 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="31 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="37 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="41 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="45 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="49 -11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-49 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-47 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-45 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="-43 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-41 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-35 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-27 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-25 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-17 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-9 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-7 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-1 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="5 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="7 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="9 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="15 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="17 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="19 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="23 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="25 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="27 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="31 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="37 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="39 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="41 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="45 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="49 -9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-49 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-47 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-45 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-43 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-41 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-35 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-27 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-25 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-17 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="-9 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-7 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-1 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="5 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="7 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="9 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="11 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="15 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="17 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="19 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="23 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="25 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="27 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="29 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="31 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="37 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="41 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="45 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="49 -7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-49 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-47 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-45 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-43 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-41 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-39 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-35 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-27 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-25 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-17 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-9 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-7 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-1 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="5 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="7 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="9 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="15 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="17 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="19 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="23 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="25 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="27 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="31 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="37 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="41 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="45 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="49 -5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-49 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-47 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-45 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-43 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-41 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-35 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-27 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-25 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-17 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-9 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-7 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-1 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="5 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="7 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="9 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="15 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="17 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="19 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="23 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="25 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="27 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="31 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="37 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="41 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="45 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="49 -3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-49 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="-47 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-45 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-43 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-41 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-35 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-27 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-25 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-17 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-15 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="-11 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-9 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-7 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-1 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="5 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="7 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="9 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="15 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="17 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="19 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="23 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="25 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="27 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="31 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="37 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="41 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="45 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="49 -1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-49 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="-47 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-45 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-43 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="-41 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-35 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-27 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-25 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-17 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-9 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-7 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-1 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="5 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="7 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="9 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="15 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="17 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="19 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="23 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="25 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="27 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="31 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="35 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="37 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="41 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="43 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="45 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="49 1"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-49 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-47 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-45 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-43 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-41 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-35 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-27 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-25 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-17 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-9 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-7 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-1 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="5 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="7 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="9 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="15 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="17 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="19 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="23 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="25 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="27 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="31 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="37 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="41 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="45 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="49 3"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-49 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-47 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-45 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-43 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-41 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-35 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="-31 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-27 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-25 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-23 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-19 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-17 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="-13 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-9 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-7 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="-1 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="5 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="7 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="9 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="15 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="17 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="19 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="23 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="25 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="27 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="31 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="37 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="41 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="45 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="49 5"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-49 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-47 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-45 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-43 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-41 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-35 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-27 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-25 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-17 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-9 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-7 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-5 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-1 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="5 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="7 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="9 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavabubbleAnimation"
+				Position="15 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="17 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="19 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="23 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="25 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="27 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="31 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="37 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="41 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="45 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="49 7"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-49 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-47 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-45 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-43 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-41 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-35 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-33 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-27 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-25 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-17 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-9 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-7 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-1 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="5 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="7 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="9 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="15 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="17 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="19 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="23 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="25 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="27 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="31 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="33 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="37 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="41 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="45 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="49 9"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-49 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-47 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-45 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-43 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-41 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-39 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-37 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-35 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-33 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-31 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-29 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-27 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-25 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-23 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-21 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-19 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-17 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-15 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-13 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-11 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-9 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-7 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-5 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="-3 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="-1 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="1 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="3 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="5 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="7 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="9 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="11 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="13 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="15 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="17 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="19 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="21 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="23 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="25 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="27 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="29 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="31 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="33 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="35 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="37 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="39 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="41 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="43 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="45 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Image="Module_Dragon_Booty:lavastaticImageMap"
+				Frame="0"
+				Position="47 11"
+				Size="2.000000 2.000000" />
+			<Sprite
+				Animation="Module_Dragon_Booty:lavaAnimation"
+				Position="49 11"
+				Size="2.000000 2.000000" />
+		</CompositeSprite.Sprites>
+	</CompositeSprite>
+</Scene>

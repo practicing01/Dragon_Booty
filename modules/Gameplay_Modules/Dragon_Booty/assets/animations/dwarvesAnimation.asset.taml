@@ -1,0 +1,7 @@
+<AnimationAsset
+	AssetName="dwarvesAnimation"
+	Image="@asset=Module_Dragon_Booty:dwarvesImageMap"
+	AnimationFrames="4 5 6 7 8 9"
+	AnimationCycle="1"
+	AnimationTime="0.2"
+/>

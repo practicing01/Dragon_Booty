@@ -1,0 +1,8 @@
+<ImageAsset
+	AssetName="dwarvesImageMap"
+	ImageFile="dwarves.png"
+	CellCountX="20"
+	CellCountY="12"
+	CellWidth="100"
+	CellHeight="80"
+/>

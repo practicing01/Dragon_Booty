@@ -1,0 +1,8 @@
+<ImageAsset
+	AssetName="DragonImageMap"
+	ImageFile="Dragon.png"
+	CellCountX="6"
+	CellCountY="3"
+	CellWidth="332"
+	CellHeight="326"
+/>

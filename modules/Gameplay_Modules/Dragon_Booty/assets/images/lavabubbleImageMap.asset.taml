@@ -1,0 +1,8 @@
+<ImageAsset
+	AssetName="lavabubbleImageMap"
+	ImageFile="lavabubble.png"
+	CellCountX="4"
+	CellCountY="1"
+	CellWidth="16"
+	CellHeight="16"
+/>
