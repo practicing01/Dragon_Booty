@@ -53,7 +53,7 @@ VertSizing="relative";
 
 Position="0 0";
 
-Extent="100 40";
+Extent="200 40";
 
 MaxLength="512";
 
@@ -86,9 +86,9 @@ HorizSizing="relative";
 
 VertSizing="relative";
 
-Position="500 0";
+Position="600 0";
 
-Extent="300 40";
+Extent="200 40";
 
 MaxLength="512";
 

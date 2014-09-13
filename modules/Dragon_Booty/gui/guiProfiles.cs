@@ -560,7 +560,7 @@ new GuiControlProfile(Gui_Profile_Modalless_Text)
     fontColor = "231 220 145 255";
 
     modal = false;
-    justify = "center";
+    justify = "left";
     autoSizeWidth = false;
     autoSizeHeight = false;
     returnTab = false;
