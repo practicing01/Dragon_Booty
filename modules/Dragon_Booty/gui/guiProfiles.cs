@@ -555,7 +555,7 @@ new GuiControlProfile(Gui_Profile_Modalless_Text)
 
     // font
     fontType = $platformFontType;
-    fontSize = $platformFontSize*2;
+    fontSize = $platformFontSize;
 
     fontColor = "231 220 145 255";
 

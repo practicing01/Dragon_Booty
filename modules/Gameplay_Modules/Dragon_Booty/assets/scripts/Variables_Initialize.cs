@@ -53,9 +53,9 @@ VertSizing="relative";
 
 Position="0 0";
 
-Extent="200 40";
+Extent="100 40";
 
-MaxLength="512";
+MaxLength="21";
 
 Module_ID_Parent=%this;
 
@@ -63,7 +63,7 @@ Int_Score=0;
 
 };
 
-Gui_Dragon_Booty_Overlay.add(%this.GuiTextCtrl_Score);
+Gui_Dragon_Booty_Overlay.addGuiControl(%this.GuiTextCtrl_Score);
 
 /**************************************************************************************************************/
 
@@ -90,7 +90,7 @@ Position="600 0";
 
 Extent="200 40";
 
-MaxLength="512";
+MaxLength="21";
 
 Module_ID_Parent=%this;
 
@@ -98,7 +98,7 @@ Int_Score=%Int_Top_Score;
 
 };
 
-Gui_Dragon_Booty_Overlay.add(%this.GuiTextCtrl_High_Score);
+Gui_Dragon_Booty_Overlay.addGuiControl(%this.GuiTextCtrl_High_Score);
 
 /**************************************************************************************************************/
 
