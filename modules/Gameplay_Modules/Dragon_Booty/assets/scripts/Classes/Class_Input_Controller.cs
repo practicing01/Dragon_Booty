@@ -36,7 +36,7 @@ if (%this.Module_ID_Parent.GuiTextCtrl_Score.Int_Score>%this.Module_ID_Parent.Gu
 
 %this.Module_ID_Parent.GuiTextCtrl_High_Score.Int_Score=%this.Module_ID_Parent.GuiTextCtrl_Score.Int_Score;
 
-%this.Module_ID_Parent.GuiTextCtrl_High_Score.setText("Score:" SPC %this.Module_ID_Parent.GuiTextCtrl_High_Score.Int_Score);
+%this.Module_ID_Parent.GuiTextCtrl_High_Score.setText("High Score:" SPC %this.Module_ID_Parent.GuiTextCtrl_High_Score.Int_Score);
 
 %this.Module_ID_Parent.File_Top_Score.OpenForWrite("./../Top_Score.txt");
 

@@ -77,7 +77,7 @@
                 class="Class_GuiButtonCtrl_Main_Menu"
                 String_Type="Single_Player"
 		Profile="Black_0ButtonProfile"
-		Text="Single Player"
+		Text="Play"
 		ButtonType="PushButton"
 		HorizSizing="relative"
 		VertSizing="relative"
